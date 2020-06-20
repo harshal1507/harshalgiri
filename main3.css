@@ -70,10 +70,11 @@ body{
     background-image: url("first.jpg");
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #section2{
-    height: 800px;
+    height: 720px;
     background: grey;
     display: inline-block;
     width: 100%;
@@ -102,16 +103,35 @@ body{
   /* first page */
   .middle{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 45%;
+    left: 24%;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: "Courier New", Courier, monospace;
     font-size: 35px;
     color: #ddd;
   }
-
-
+  .about{
+    position: absolute;
+    top: 40%;
+    left: 84%;
+    bottom: 25%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 20px;
+    color: #ddd;
+  }
+  .test{
+    position: absolute;
+    top: 75%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 15px;
+    color: #ddd;
+  }
 
 
   /* SECTION2 */
